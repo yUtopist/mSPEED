@@ -1,0 +1,216 @@
+@charset "utf-8";
+/* CSS Document */
+
+html {
+	min-width: 1366px;
+}
+
+body {
+	background-color: #354152;
+	background-image: url(../img/01_background.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-min: 100%;
+	font: 115% 'Myriad Pro', sans-serif;
+	color: #ffffff;
+	margin: 0;
+	margin-left: 0;
+	margin-top: 0;
+	margin-right: 0;
+	padding: 0;
+	padding-top: 0;
+	padding-left: 0;
+	padding-right: 0;
+}
+
+a {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #dfdfdf;
+}
+
+header {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	height: 100px;
+	margin: auto;
+	padding: 0;
+	background-image: url(../img/menu_background.png);
+}
+
+#menu_origin {
+	width: 80%;
+	min-width: 910px;
+	margin: auto;
+}
+
+#menu_left {
+	float: left;
+	padding-top: 38px;
+}
+
+#menu_logo {
+	float: left;
+}
+
+#buttons {
+	float: right;
+	font-size: 87%;
+}
+
+nav ul {
+    margin: 0;
+}
+
+#menu li {
+    display: inline-block;
+}
+
+#animation_button {					/* смещение вниз у кнопок */
+	position: relative;
+	top: 0;
+	z-index: 2;
+	cursor: pointer;
+	transition: 0.08s linear;
+	width: 100px;
+	height: 60px;
+	display: inline-block;			/* область выделения */
+	padding-top: 40px;
+	margin: auto;
+	text-align: center;
+	vertical-align: middle;
+}
+
+#animation_button:hover {
+	top: 5px;
+}
+
+#content {
+	width: 50%;
+	margin: auto;
+	min-width: 830px;
+}
+
+#content2 {
+	padding-top: 85px;
+}
+
+p {
+	text-transform: uppercase;
+	padding-top: 21%;
+	font: 87% 'Myriad Pro', sans-serif;
+	color: #ffffff;
+	text-align: justify;
+}
+
+/* контейнер для всего альбома */
+#album {
+	padding-top: 9%;
+	/* overflow: hidden; */
+}
+
+/* описания обложки */
+#album_left {
+	float: left;
+
+}
+
+#album_right {
+	float: right;
+	width: 50%;
+	min-width: 360px;
+	padding-top: 0;
+}
+
+.play_field {
+	vertical-align: middle;
+}
+
+#album_info li {
+	display: inline-block;
+}
+
+#album_name {
+	text-align: left;
+	padding-left: 0;
+	vertical-align: top;
+}
+
+#album_year {
+	float: right;
+	text-align: right;
+}
+
+#album_songs li {
+	display: inline-block;
+
+}
+
+#album_songs div {
+	display: inline-block;
+}
+
+#song_number {
+	text-align: left;
+	padding-left: 0;
+}
+
+div #song_name {
+	padding-left: 30px;
+	text-align: left;
+}
+
+#play_button {
+	padding-top: 0;
+}
+
+h1 {
+	margin: 0;
+	font: 90% 'Myriad Pro', sans-serif;
+	color: #ffffff;
+}
+
+h2 {
+	font: 80% 'Myriad Pro', sans-serif;
+	padding-top: 20px;
+	margin: auto;
+	text-decoration: none;
+}
+
+h3 {
+	font: 80% 'Myriad Pro', sans-serif;
+	padding-top: 20px;
+	margin: auto;
+	text-decoration: none;
+}
+
+.play_field {
+	color: #ffffff;
+	width: 100%;
+	height: 39px;
+	left: 0;
+	position: relative;
+	z-index: 2;
+	cursor: pointer;
+	transition: 0.08s linear;
+}
+
+.play_field:hover {
+	left: 10px;
+}
+
+#song_time {
+	right: 0;
+	left: 0;
+	text-align: right;
+	float: right;
+}
+
+#song_name h3 a:hover {
+	color: #ffffff;
+}
